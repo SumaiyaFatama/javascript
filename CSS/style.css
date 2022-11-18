@@ -12,7 +12,7 @@ body{
 
 a{
     text-decoration: none;
-    color: #09036b
+    color: #fff
 }
 
 body{
@@ -41,11 +41,11 @@ body{
     right: 30px;
     color: #ffffff;
     cursor: pointer;
-    z-index: 13;
+    z-index: 1;
 }
 
 .theme-toggler.active{
-    color: aqua;
+    color: #333;
 }
 
 .theme-toggler.active::before{
@@ -61,7 +61,7 @@ body{
     transform: translate(-50%, -50%);
     border-radius: 50%;
     background-color: #333;
-    z-index: 14;
+    z-index: -1;
 }
 
 #display{
@@ -98,13 +98,13 @@ button:hover{
 }
 
 button#equal{
-    height: 150px;
+    height: 140px;
 }
 
 /* light theme */
 
 .calculator{
-    background-color: #fbf3ff;
+    background-color: #ffffff;
 }
 
 .calculator #display{
@@ -136,11 +136,11 @@ button#equal{
     background-color: #0a0129;
 }
 .calculator.dark#display{
-    color: #333;
+    color: #f8fafb;
 }
 
 .calculator.dark button#clear{
-    background-color: #3a2a2a;
+    background-color: #2d191e;
     color: red;
 }
 
